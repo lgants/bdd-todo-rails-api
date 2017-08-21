@@ -32,7 +32,7 @@ RSpec.describe 'Todos API', type: :request do
       end
     end
 
-    context 'when the record exists' do
+    context 'when the record does not exist' do
       let(:todo_id) { 100 }
 
       it 'returns status code 404' do
